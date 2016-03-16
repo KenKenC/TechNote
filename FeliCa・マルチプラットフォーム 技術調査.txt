@@ -1,0 +1,26 @@
+マルチプラットフォーム (Visual Studio C#)
+ ・Xamarin.net (https://www.microsoft.com/ja-jp/dev/campaign/x-platform.aspx)
+ ・monaca for Visual Studio (http://codezine.jp/article/detail/8471?p=3)
+   (https://ja.monaca.io/visualstudio.html)
+   (http://docs.monaca.mobi/cur/ja/manual/development/monaca_vs/introduction/#installing-monaca-for-visual-studio)
+ 　Visual Studio Communityでのみ無料利用可能
+ 　会員登録が必要
+ 　iOS, Androidでデバッガツールを別途ダウンロードする
+ 　Onsen UI で高品質なUIの作成が可能
+ ・Visual Studio Tools for Apache Cordova
+ 　iOS用のビルドは、別途iOSで行なう必要がある。
+ 　開発自体は、Windowsでできる
+ 　
+ ----------------------------------------
+ http://www.sony.co.jp/Products/felica/business/data/SDK_Products.pdf
+ FeliCa カードの種類 
+ 大きく4種類 → 今回使用するのは、交通系ICなので、FeliCal Standard
+  システム構成 Application (自作)、SDK for FeliCa, OS 
+  Android機器で使用する場合は、 株式会社イノベーションプラス NFCアプリケーション開発キットを使う選択肢？
+  Windowsで動作させるなら SDK for FeliCa or SDK for NFC
+  iOSで動かすなら SDK for NFC
+  
+  ICS-D010/20J (でも開発向け) 
+　SDK for NFC Starter Kit Ver.2.0.3 は無償のSDK (http://www.sony.co.jp/Products/felica/business/products/ICS-D004_002_003.html)
+　ICS-D010 か D004、ICS-D101を使用したい
+　ヘルスケアライブラリ でAndroid、Windows,iOSに対応するらしいが、それぞれSDKを用意する必要がある
